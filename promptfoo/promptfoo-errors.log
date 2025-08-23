@@ -1,0 +1,1 @@
+2025-08-22T10:04:31.960Z [ERROR]: API call error: Error: Error parsing response from https://api.openai.com/v1/chat/completions: Unexpected token 'u', "upstream c"... is not valid JSON. Received text: upstream connect error or disconnect/reset before headers. reset reason: connection termination
