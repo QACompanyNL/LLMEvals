@@ -7,7 +7,7 @@
         "@readwise/readwise-mcp"
       ],
       "env": {
-        "ACCESS_TOKEN": "cBonbex99ipKf1IFZe1NGKwELoQBlehbj3JUd5AcWyK2C67r61"
+        "ACCESS_TOKEN": "<yourowntoken>"
       }
     },
 "mcp-hn": {
