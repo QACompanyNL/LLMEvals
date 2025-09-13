@@ -1,0 +1,50 @@
+{
+  "mcpServers": {
+"Readwise MCP": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@readwise/readwise-mcp"
+      ],
+      "env": {
+        "ACCESS_TOKEN": "cBonbex99ipKf1IFZe1NGKwELoQBlehbj3JUd5AcWyK2C67r61"
+      }
+    },
+"mcp-hn": {
+      "command": "uvx",
+      "args": ["mcp-hn"]
+    },
+"mcp-compass": {
+      "command": "npx",
+      "args": [
+         "-y",
+         "@liuyoshio/mcp-compass"
+      ]
+   },
+    "github": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-github"
+      ],
+      "env": {
+        "GITHUB_PERSONAL_ACCESS_TOKEN": "<yourowntoken>"
+      }
+    },
+    "ddg-search": {
+      "command": "uvx",
+      "args": ["duckduckgo-mcp-server"]
+    },
+    "context7": {
+      "type": "http",
+      "url": "https://mcp.context7.com/mcp"
+    },
+    "sequential-thinking": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-sequential-thinking"
+      ]
+    }
+  }
+}
